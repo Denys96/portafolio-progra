@@ -21,6 +21,10 @@ $enable-responsive-font-sizes: true;
 
 
 /********** Template CSS ************/
+body {
+    overflow-x: hidden;
+}
+
 h1,
 .font-weight-bolder {
     font-weight: 900 !important;
@@ -305,3 +309,22 @@ h6,
     padding: 0;
     list-style-type: none;
 }
+
+  /* Hace que todas las tarjetas tengan la misma altura */
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Hace que el body ocupe el espacio restante uniformemente */
+  .card-body {
+    flex-grow: 1;
+  }
+
+  /* Limita el tamaño de la imagen para mantener proporción */
+  .cert-img {
+    max-height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }

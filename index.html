@@ -26,26 +26,28 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Denys</span>Hernández</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Inicio</a>
-                <a href="#about" class="nav-item nav-link">Sobre mi</a>
-                <a href="#service" class="nav-item nav-link">Habilidades</a>
-                <a href="#portfolio" class="nav-item nav-link">Proyectos</a>
-                <a href="#testimonial" class="nav-item nav-link">Reseñas</a>
-                <a href="#blog" class="nav-item nav-link">certificaciones</a>
-                <a href="#contact" class="nav-item nav-link">Contacto</a>
-            </div>
-            <a href="" class="btn btn-outline-primary d-none d-lg-block">Sobre mi</a>
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 px-3">
+    <a href="index.html" class="navbar-brand ml-lg-3">
+        <h1 class="m-0 display-5"><span class="text-primary">Denys</span>Hernández</h1>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto">
+            <a href="#home" class="nav-item nav-link active">Inicio</a>
+            <a href="#about" class="nav-item nav-link">Sobre mí</a>
+            <a href="#service" class="nav-item nav-link">Habilidades</a>
+            <a href="#portfolio" class="nav-item nav-link">Proyectos</a>
+            <a href="#testimonial" class="nav-item nav-link">Reseñas</a>
+            <a href="#blog" class="nav-item nav-link">Certificaciones</a>
+            <a href="#contact" class="nav-item nav-link">Contacto</a>
         </div>
-    </nav>
+        <a href="#about" class="btn btn-outline-primary d-none d-lg-block">Sobre mí</a>
+    </div>
+</nav>
     <!-- Navbar End -->
 
 
@@ -128,64 +130,65 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">habilidades</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Habilidades tecnicas</h1>
+<div class="container-fluid pt-5" id="service">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">habilidades</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Habilidades técnicas</h1>
+        </div>
+        <div class="row pb-3">
+            <!-- HTML -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-html5 fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">HTML5</h4>
+                </div>
+                <p>Lenguaje de marcado que utilizo para estructurar contenido web de forma semántica y accesible.</p>
             </div>
-            <div class="row pb-3">
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">HTML</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+            <!-- CSS -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-css3-alt fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">CSS3</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">CSS</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Estilo mis sitios web con CSS, enfocándome en el diseño responsivo y moderno utilizando Flexbox y Grid.</p>
+            </div>
+            <!-- JavaScript -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-js fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">JavaScript</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">JavaScript</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Uso JavaScript para añadir interactividad a los sitios web, creando una experiencia dinámica para el usuario.</p>
+            </div>
+            <!-- React JS -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-react fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">React JS</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">Apps Development</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Aprendiendo a construir interfaces modernas con React, usando componentes reutilizables y manejo de estados.</p>
+            </div>
+            <!-- GitHub -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fab fa-github fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">GitHub</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">React Js</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                <p>Uso GitHub para controlar versiones de mis proyectos y colaborar en equipo mediante repositorios remotos.</p>
+            </div>
+            <!-- Responsive Design -->
+            <div class="col-lg-4 col-md-6 text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4">
+                    <i class="fas fa-mobile-alt fa-2x service-icon bg-primary text-white mr-3"></i>
+                    <h4 class="font-weight-bold m-0">Diseño Responsivo</h4>
                 </div>
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="d-flex align-items-center justify-content-center mb-4">
-                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
-                        <h4 class="font-weight-bold m-0">GitHub</h4>
-                    </div>
-                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
-                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                </div>
+                <p>Me aseguro de que mis proyectos se vean bien en todos los dispositivos usando media queries y Bootstrap.</p>
             </div>
         </div>
     </div>
+</div>
+
     <!-- Services End -->
 
 
@@ -350,54 +353,61 @@
     <!-- Testimonial End -->
 
 
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5" id="blog">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">certificaciones</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Mis certificaciones</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
-                        <div class="blog-date">
-                            <h4 class="font-weight-bold mb-n1">01</h4>
-                            <small class="text-white text-uppercase">Jan</small>
-                        </div>
-                    </div>
-                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                </div>
-
-                <div>
-                <a href="certificaciones.html" class="next-botton btn btn-outline-primary text-uppercase">
-                    todas mis certificaciones <i class="bi bi-arrow-right"></i>
-                </a>
-                </div>
-            </div>
-        </div>
+<!-- Sección de certificaciones -->
+<div class="container-fluid pt-5" id="blog">
+   <div class="container">
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">certificaciones</h1>
+      <h1 class="position-absolute text-uppercase text-primary">Mis certificaciones</h1>
     </div>
-    <!-- Blog End -->
+    <div class="row">
+      <div class="col-lg-4 mb-5">
+        <div class="position-relative mb-4">
+          <img class="img-fluid rounded w-100 cert-img" src="img/CCNA 1.png" alt="Certificado CCNA 1"
+            data-toggle="modal" data-target="#certModal" data-src="img/CCNA 1.png">
+        </div>
+        <h4 class="font-weight-bold mb-n1">Cisco Networking Academy</h4>
+        <h5 class="font-weight-medium mb-4">Introducción a las redes: configurar routers, switch, dispositivos finales, direccionamiento IPv4 e IPv6, configurar una red pequeña, etc.</h5>
+      </div>
+      <div class="col-lg-4 mb-5">
+        <div class="position-relative mb-4">
+          <img class="img-fluid rounded w-100 cert-img" src="img/CCNA 2.png" alt="Certificado CCNA 2"
+            data-toggle="modal" data-target="#certModal" data-src="img/CCNA 2.png">
+        </div>
+        <h4 class="font-weight-bold mb-n1">Cisco Networking Academy</h4>
+        <h5 class="font-weight-medium mb-4">Conmutación, enrutamiento y conceptos básicos inalámbricos.</h5>
+      </div>
+      <div class="col-lg-4 mb-5">
+        <div class="position-relative mb-4">
+          <img class="img-fluid rounded w-100 cert-img" src="img/CCNA 3.png" alt="Certificado CCNA 3"
+            data-toggle="modal" data-target="#certModal" data-src="img/CCNA 3.png">
+        </div>
+        <h4 class="font-weight-bold mb-n1">Cisco Networking Academy</h4>
+        <h5 class="font-weight-medium mb-4">Redes empresariales, seguridad y administración: se centra en el diseño, seguridad, operación y solución de problemas de redes empresariales, etc.</h5>
+      </div>
+
+      <div class="col-12 text-center mt-3">
+        <a href="certificaciones.html" class="next-botton btn btn-outline-primary text-uppercase">
+          todas mis certificaciones <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para ver imagen en grande -->
+<div class="modal fade" id="certModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content bg-transparent border-0">
+      <button type="button" class="close position-absolute top-0 end-0 m-3" data-dismiss="modal" aria-label="Cerrar">
+        <span aria-hidden="true" style="font-size: 2rem;">&times;</span>
+      </button>
+      <img src="" id="modalCertImg" class="img-fluid rounded" alt="Certificación en grande">
+    </div>
+  </div>
+</div>
+
+
 
 
     <!-- Contact Start -->

@@ -115,3 +115,10 @@
     
 })(jQuery);
 
+//  Script para cambiar la imagen al hacer clic 
+  document.querySelectorAll('.cert-img').forEach(img => {
+    img.addEventListener('click', function () {
+      const src = this.getAttribute('data-src');
+      document.getElementById('modalCertImg').setAttribute('src', src);
+    });
+  });
