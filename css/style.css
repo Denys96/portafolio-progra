@@ -9499,4 +9499,14 @@ h6,
   width: 100%;
 }
 
+/* Ajustes para el nav en móviles */
+.navbar-nav {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card-body-fixed {
+  min-height: 160px; /* Ajusta según el contenido general */
+}
+
 /*# sourceMappingURL=style.css.map */

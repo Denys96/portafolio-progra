@@ -334,3 +334,7 @@ h6,
     flex-wrap: wrap;
     text-align: center;
 }
+
+.card-body-fixed {
+  min-height: 160px; /* Ajusta según el contenido general */
+}
