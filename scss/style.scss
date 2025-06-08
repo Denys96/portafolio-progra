@@ -311,20 +311,26 @@ h6,
 }
 
   /* Hace que todas las tarjetas tengan la misma altura */
-  .card {
+.card {
     height: 100%;
     display: flex;
     flex-direction: column;
-  }
+}
 
   /* Hace que el body ocupe el espacio restante uniformemente */
-  .card-body {
+.card-body {
     flex-grow: 1;
-  }
+}
 
   /* Limita el tamaño de la imagen para mantener proporción */
-  .cert-img {
+.cert-img {
     max-height: 250px;
     object-fit: cover;
     width: 100%;
-  }
+}
+
+  /* Ajustes para el nav en móviles */
+.navbar-nav {
+    flex-wrap: wrap;
+    text-align: center;
+}
