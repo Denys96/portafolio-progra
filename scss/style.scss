@@ -338,3 +338,30 @@ h6,
 .card-body-fixed {
   min-height: 160px; /* Ajusta según el contenido general */
 }
+
+.card-cert {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.cert-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-body h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cert-body p {
+    margin-top: 10px;
+    text-align: justify;
+    flex-grow: 1;
+}
