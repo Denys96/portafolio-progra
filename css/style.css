@@ -9507,6 +9507,7 @@ h6,
 
 .card-body-fixed {
   min-height: 160px; /* Ajusta según el contenido general */
+  margin-bottom: 2rem;
 }
 
 .card-cert {
